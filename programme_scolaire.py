@@ -2,6 +2,23 @@ from math import *
 # coding: utf-8
 import sqlite3#bibliothèque de la bdd en local
 
+
+#######################################################################
+#Programme qui sert à un enseignant de rentrer le nombre d'étudiants, noms, prenoms           #
+#et leurs notes afin de lister ceux qui ont la moyenne avec mention et ceux qui ne l'ont pas   #
+######################################################################
+
+#fonctionnalités
+#bdd(), qui sert à se connecter à la BDD SQLITE
+#saisir(), qui sert à enregistrer les étudiants et leurs notes
+#mention(), qui sert à donner la mention de l'étudiant en fonction de la moyenne
+#moyenne(), qui sert à calculer la moyenne de l'étudiatnt en fonction de sa note de test et l'examen
+#liste_admis(), qui sert à lister les étudiants qui ont une moyenne >= 10 et qui donne leur mention
+#liste_echoues(), qui sert à lister les étudiants qui ont une moyenne< 10
+#liste_etudiant(), qui sert à lister tous les étudiants enregistrés
+#choisir(), crée pour gérer le menu de navigation
+
+
 for i in range(2):
         print("")
 print("****************************")
